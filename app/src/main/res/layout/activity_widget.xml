@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.stone.transition.WidgetActivity"
+    android:background="@mipmap/widget_activity_bg">
+
+    <TextView
+        android:id="@+id/poems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/poem"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:singleLine="false"/>
+
+</LinearLayout>
